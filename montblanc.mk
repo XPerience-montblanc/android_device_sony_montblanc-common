@@ -98,7 +98,7 @@ PRODUCT_COPY_FILES += \
     device/sony/montblanc-common/config/cacert.txt:system/etc/suplcert/cacert.txt
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    sys.mem.max_hidden_apps=10
+    sys.mem.max_hidden_apps=15
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp \
